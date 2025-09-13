@@ -2,9 +2,12 @@
 Hello everyone! This is a 12V/5V 8A adjustable buck converter I designed for a design team (96W Converter on a good day)
 ![Buck Converter 3D Render](<Buck Convertor (12V 6A)-1.png>)
 This version of the board is untested, but the core functionality has (the converting) and it works pretty well
+## JLC Note
 Every component on the board has a JLC# You just need to solder your own automotive blade fuse holder (3557-2) and Molex Mini fit Jrs (1726480102)
 Approximate cost is ~40 CAD 2 boards assembled, 2 week shipping but could be smthn else idk
+## Connector Note
 Its a lil cooked crimping those but you can do it with a basic JST crimper
+## Other functionality
 There is an automotive blade fuse and a PFET for reverse polarity protection. Gold fingers for a slot card mount exist as well.
 The core chip is the SIC438BED-T1-GE3, which is a monstorous package, but JLC can assemble it for you with no problems ish
 # Tested functionality
