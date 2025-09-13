@@ -1,0 +1,142 @@
+(footprint "6 Contact Gold Finger"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.016 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "911de267-598e-4311-a375-1e6ec6c488d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "6 Contact Gold Finger"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2668c554-f03f-4e1b-b589-47412198ca5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c4f91ff-f2c6-4703-9c5e-1c0ce55433fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e7ac0d5-3420-4d91-b4fc-f5b813362d5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c0023ce-48ec-4cf7-a5f7-2e9d9657923d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "194862ba-aa81-4056-9b6f-b9fdbb78a3cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -3.81 180)
+		(size 1.3 7.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "44e5e4da-ba1f-4466-9112-98c1b3a9f9ec")
+	)
+	(pad "2" smd roundrect
+		(at 2.54 -3.81 180)
+		(size 1.3 7.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "571f6b90-be4a-4ee1-937d-701abad024d9")
+	)
+	(pad "3" smd roundrect
+		(at 5.08 -3.81 180)
+		(size 1.3 7.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d0d068f2-97b0-4f6f-b13a-e25f3a9f658a")
+	)
+	(pad "4" smd roundrect
+		(at 7.62 -3.81 180)
+		(size 1.3 7.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "aadbc4f7-e279-44d0-b851-744e53873f69")
+	)
+	(pad "5" smd roundrect
+		(at 10.16 -3.81 180)
+		(size 1.3 7.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "14c7ef5d-6fcb-45b9-ac0d-8a33805c98a1")
+	)
+	(pad "6" smd roundrect
+		(at 12.7 -3.81 180)
+		(size 1.3 7.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c7422b5e-418f-473f-a356-48a2f41b92ed")
+	)
+	(model "C:/Users/liuna/Documents/TMR/6 Gold Finger Contact/166086_6/166086-6.stp"
+		(offset
+			(xyz 6.5 6.5 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)

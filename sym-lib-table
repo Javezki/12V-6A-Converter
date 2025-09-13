@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SIC438BED-T1-GE3")(type "KiCad")(uri "${KIPRJMOD}/SIC438BED_T1_GE3/KiCADv6/2025-01-03_02-03-24.kicad_sym")(options "")(descr ""))
+  (lib (name "xavier6a_12v")(type "KiCad")(uri "${KIPRJMOD}/xavier6a_12v.kicad_sym")(options "")(descr ""))
+  (lib (name "3557-2")(type "KiCad")(uri "${KIPRJMOD}/3557_2/3557-2.kicad_sym")(options "")(descr ""))
+)

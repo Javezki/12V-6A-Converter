@@ -1,0 +1,114 @@
+(footprint "ZEMS1040"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3f421434-3225-4da6-9e62-ceecda845acc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3.3uH"
+		(at 0 -0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2e46ce95-5650-4794-937f-61995a9ffe37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604447657905565696"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a1c7808-71e5-426c-9193-7747de33bc29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "11.8mΩ 3.3uH 11A 16A Integrated molded inductor ±20% SMD,11.5x10mm Power Inductors"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61b3c286-2f37-41dc-a24e-559f41b668aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C41415637"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc0ff2ec-2d53-4bc6-a3fe-69a1aa71f4e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.85 -5.2)
+		(end 5.65 5.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a2f10bab-112f-4d71-a914-4c4cb741b44b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "313bafea-0448-4918-b16d-06472ded49ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.75 -0.1)
+		(size 4.05 4.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a9de6802-a4a8-4bf6-8bd9-36f5624fec43")
+	)
+	(pad "2" smd roundrect
+		(at 4.7 -0.1)
+		(size 4.05 4.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "5d6b0260-52be-49fe-8f23-a0e28bff496e")
+	)
+	(group ""
+		(uuid "279a9abc-fea1-495f-aaf8-fd5e876b4887")
+		(members "5d6b0260-52be-49fe-8f23-a0e28bff496e" "a9de6802-a4a8-4bf6-8bd9-36f5624fec43")
+	)
+	(embedded_fonts no)
+)

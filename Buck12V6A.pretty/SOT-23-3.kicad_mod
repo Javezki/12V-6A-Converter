@@ -1,0 +1,427 @@
+(footprint "SOT-23-3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.139 -0.101 0)
+		(layer "F.SilkS")
+		(uuid "b28ee1ee-8729-4691-a27d-d10908b11ef4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2N7002"
+		(at 0.025 3.25 0)
+		(layer "F.Fab")
+		(uuid "f9a44072-dfed-4630-8c2d-a165a4404013")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af484bb1-7e40-47d2-80eb-4cf3b5fd770c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MOSFET N-CH 60V 115MA SOT-23"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5085f19-9173-46b9-9900-829b0514fdbf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digi-Key_PN" "2N7002NCT-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ef44918-909c-4308-9281-444a06ab44b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "2N7002"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "435d525e-3818-4bee-810d-cc760db6cde5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Category" "Discrete Semiconductor Products"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dd6656b-e4f3-4f33-bfd9-49bfb5daecbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Family" "Transistors - FETs, MOSFETs - Single"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04caa224-6f8d-4fbd-8f86-e4e592d6285e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d9d0272-b895-46b9-8730-d413bc2b8f6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4b063d1-8902-4a6b-b013-d01cbc60831c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "MOSFET N-CH 60V 115MA SOT-23"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b62168f-4605-4883-a69f-48b2f50284c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "ON Semiconductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "160ba1a5-a0bd-4e82-bd96-1529da4fd700")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" "Active"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89eebec7-464c-473d-85b8-6ba4a1c5e826")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C8545"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50ae119a-0c65-4cf1-885b-352adfbb3783")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9375 1.8)
+		(end -0.9375 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e8ea7c2-0aec-4fc2-9dfb-f109f96fed48")
+	)
+	(fp_line
+		(start -0.825 -1.5)
+		(end -0.825 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6900cf3f-c926-47c1-9830-3be625309408")
+	)
+	(fp_line
+		(start -0.825 -1.45)
+		(end -1.6 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "352b44e2-d740-4ed5-9403-ad491723a834")
+	)
+	(fp_line
+		(start -0.4625 1.8)
+		(end -0.9375 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d0b870c-4e67-4da6-8b2a-4e9d6cb2ee1d")
+	)
+	(fp_line
+		(start -0.45 -1.775)
+		(end -0.825 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34f43797-4df0-439c-b9aa-6fca3eaa4782")
+	)
+	(fp_line
+		(start -0.175 -1.775)
+		(end -0.45 -1.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b016071-3dc5-492f-854e-8c3b45685346")
+	)
+	(fp_line
+		(start 0.525 -1.75)
+		(end 0.9 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d0603a0-a897-4505-aac8-6c60bce51cc6")
+	)
+	(fp_line
+		(start 0.9 -1.75)
+		(end 0.9 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6ad46d9-3818-465c-b164-d7409f81a763")
+	)
+	(fp_line
+		(start 0.925 1.5)
+		(end 0.925 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16e9c4f9-9789-4bf1-973b-994d8923f16e")
+	)
+	(fp_line
+		(start 0.925 1.575)
+		(end 0.925 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5a75342-a951-40b7-994c-2d30fcb1e94a")
+	)
+	(fp_line
+		(start 0.925 1.8)
+		(end 0.475 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5392ed27-306f-4ec6-8053-ad2865dc529a")
+	)
+	(fp_line
+		(start -1.825 -1.95)
+		(end -1.825 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d12bc9f0-fc08-4f06-a906-ae5bc291e59c")
+	)
+	(fp_line
+		(start -1.825 -1.95)
+		(end 1.825 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5db41980-771b-4a0a-8c26-fff28a3c917d")
+	)
+	(fp_line
+		(start 1.825 -1.95)
+		(end 1.825 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d758ace-a417-4a2c-9cf9-63ef0eb94104")
+	)
+	(fp_line
+		(start 1.825 1.95)
+		(end -1.825 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2219ad81-a6b3-4aaa-b43d-fce9e8088edf")
+	)
+	(fp_line
+		(start -0.7 -1.325)
+		(end -0.7 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ddc02af4-b891-415c-88a5-6621a72dc268")
+	)
+	(fp_line
+		(start -0.7 1.52)
+		(end 0.7 1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73868d49-846a-4186-9e36-3fa6a7a9d221")
+	)
+	(fp_line
+		(start -0.425 -1.525)
+		(end -0.7 -1.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78f9a376-0f04-4269-b3c3-bbb88e41aba8")
+	)
+	(fp_line
+		(start -0.425 -1.525)
+		(end 0.7 -1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc0b1788-b74d-4b11-86f7-c455cd83de35")
+	)
+	(fp_line
+		(start 0.7 1.52)
+		(end 0.7 -1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5757c81a-a0dd-410a-8c77-03e7ec51b620")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.125 0.15 0)
+		(layer "F.Fab")
+		(uuid "f431b463-f12d-4dd5-a3fa-849552c0026d")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.05 -0.95)
+		(size 1.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.07)
+		(uuid "c8e8ca11-6b8a-4f68-8ad1-1d619b942f8e")
+	)
+	(pad "2" smd rect
+		(at -1.05 0.95)
+		(size 1.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.07)
+		(uuid "aa8162b5-a981-49e8-aa02-35f766aa262a")
+	)
+	(pad "3" smd rect
+		(at 1.05 0)
+		(size 1.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.07)
+		(uuid "5de30ecd-7150-4e01-8308-ef408925f54c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/SOT-23-3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
