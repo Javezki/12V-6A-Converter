@@ -1,33 +1,57 @@
 # About This Project
-Hello everyone! This is a 12V/5V 8A adjustable buck converter I designed for a design team (96W Converter on a good day)
+
+Hello everyone!  
+This is a 12V/5V 8A adjustable buck converter I designed for a design team (96W Converter on a good day).
+
 ![Buck Converter 3D Render](<Buck Convertor (12V 6A)-1.png>)
-This version of the board is untested, but the core functionality has (the converting) and it works pretty well
+
+This version of the board is untested, but the core functionality (the converting) has been tested and it works pretty well.
+
 ## JLC Note
-Every component on the board has a JLC# You just need to solder your own automotive blade fuse holder (3557-2) and Molex Mini fit Jrs (1726480102)
-Approximate cost is ~40 CAD 2 boards assembled, 2 week shipping but could be smthn else idk
+
+Every component on the board has a JLC#.  
+You just need to solder your own automotive blade fuse holder (3557-2) and Molex Mini Fit Jrs (1726480102)—**though these connectors and the fuse holder can technically also be assembled by JLC, just at additional expense**.  
+Approximate cost is ~40 CAD for 2 boards assembled, 2 week shipping, but could vary.
+
 ## Connector Note
-Its a lil cooked crimping those but you can do it with a basic JST crimper
-## Other functionality
-There is an automotive blade fuse and a PFET for reverse polarity protection. Gold fingers for a slot card mount exist as well.
-The core chip is the SIC438BED-T1-GE3, which is a monstorous package, but JLC can assemble it for you with no problems ish
-# Tested functionality
-12V 6A works at 300 kHz switching frequency (Vin of 13.2V) with a thermal rise of about ~25C
-5V 6A works at 750kHz switching frequency (Vin of 13.2V) with a thermal rise of about ~10C
-The tests were conducted using a electronic load and varying the current draw and determining temperature with thermocouple
-If you have a higher voltage input, you can use the 750kHz switching frequency for the 12V rail. Do the max duty cycle calculations based on the SIC438BED-T1-GE3 datasheet
-# Untested functionality
-The reverse polarity protection was simulated using MultiSim, but due to a lack of moneys, the real life version is untested
-The jumpers for swapping 12V with 5V and 750kHz and 300kHz are untested, but its just resistors so I'm not too worried about that
-Technically, it operates at 8A (No OCP tripped when testing under load), and the chip is rated for 8A, I'm not sure about how tight the ripple is on the output nor thermal capabilities. Use at your own risk
-# Things I (or someone else) need to clean up
-All the footprint references for the JLC components are messed up because I switched to KiCAD 9
-3D models for all the components need to be added eventually but lowkey too lazy to do that rn
-Gonna do a better job with the test pads later lmao
-Switch the PFET with a proper reverse polarity charge pump IC so high side NFET is usable. Less RDs on and less heat overall
-Let me know if you want different connectors on this thing or you can just do it yourself files are on the page
+
+It's a little tricky crimping those, but you can do it with a basic JST crimper.
+
+## Other Functionality
+
+- Automotive blade fuse and a PFET for reverse polarity protection present  
+- Gold fingers for a slot card mount  
+- Core chip: SIC438BED-T1-GE3 (large package, but JLC can assemble it with no problem)
+
+# Tested Functionality
+
+- 12V 6A works at 300 kHz switching frequency (Vin: 13.2V) with a thermal rise of about ~25°C  
+- 5V 6A works at 750 kHz switching frequency (Vin: 13.2V) with a thermal rise of about ~10°C  
+- Tests conducted with an electronic load, varying the current, and measuring temperature with a thermocouple  
+- For higher voltage input: use 750 kHz for the 12V rail (calculate max duty cycle using the SIC438BED-T1-GE3 datasheet)
+
+# Untested Functionality
+
+- Reverse polarity protection was only simulated in MultiSim—untested in hardware due to costs  
+- Jumpers for swapping 12V/5V and switching frequency are untested (just resistor swapping, so risk is minimal)  
+- Board theoretically runs at 8A (no OCP trip at full load, chip rated 8A), but output ripple and full thermal capability aren't fully characterized. **Use at your own risk.**
+
+# Things To Clean Up
+
+- All JLC component footprint references are messed up because of a switch to KiCad 9  
+- 3D models for all components need to be added eventually (on the todo list)  
+- Better test pad layout is coming in a future revision  
+- Replace the PFET with a proper reverse polarity charge pump IC for a high-side NFET (lower Rds(on), less heat)  
+- Want different connectors? Let me know, or just mod the files yourself—they're on the page!
+
 # Schematic
+
 ![Schematic Diagram](image.png)
+
 # Final Remarks
-I've tried doing this on a 2 layer board but JLC assembly does not support this IC on 2 layer. Switch to 2 layer at your own risk (They don't work 90% of the time). No issues with 4 layer so far
-If anyone wanna donate me money so I can test this board DM me on Discord @javezki 
+
+- 2-layer board build *might not work*—JLC assembly doesn't support this IC on 2 layer builds (success rate ~10%)  
+- 4-layer assembly has been issue-free so far  
+- If you want to fund more testing, DM me on Discord @javezki
+
 Love y'all
