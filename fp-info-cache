@@ -1,4 +1,4 @@
-26396062882677027
+26364744721731688
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -486,6 +486,13 @@ Buck12V6A
 SOT-23-3
 
 
+0
+3
+3
+Buck12V6A
+TO-252-2_L6.6-W6.1-P4.57-LS9.9-TL-CW
+TO-252-2_L6.6-W6.1-P4.57-LS9.9-TL-CW footprint
+TO-252-2_L6.6-W6.1-P4.57-LS9.9-TL-CW footprint C10663
 0
 3
 3
@@ -96088,13 +96095,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SIC438BED_T1_GE3
-QFN_ED-T1-GE3_VIS
-
-SIC438BED-T1-GE3 
-0
-28
-28
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -105174,129 +105174,3 @@ WIRELM-SMD_ESP32-S3-WROOM-1
 0
 49
 41
-xavier6a_12v
-6 Contact Gold Finger
-
-
-0
-6
-6
-xavier6a_12v
-CONN_SD-172648-0000_02_MOL
-
-1726480102 
-0
-3
-3
-xavier6a_12v
-CYA0630-3.3UH
-
-
-0
-2
-2
-xavier6a_12v
-C_0805
-Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-xavier6a_12v
-DPAK-369C_ONS
-
-NTD2955T4G 
-0
-3
-3
-xavier6a_12v
-D_0805
-LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-LED
-0
-2
-2
-xavier6a_12v
-Flyback Diode
-
-
-0
-2
-2
-xavier6a_12v
-Flyback Diode-CrackBook
-
-
-0
-2
-2
-xavier6a_12v
-LOGO
-
-
-0
-0
-0
-xavier6a_12v
-L_SOREDE_SNR.1050_10x10x5mm
-Sorede 10x10x5mm Power Inductor, https://datasheet.lcsc.com/lcsc/2201141530_SOREDE-SNR-1050-TYD4R7MT00_C2942304.pdf
-Inductor Sorede SNR 
-0
-2
-2
-xavier6a_12v
-MountingHole_3.2mm_M3
-Mounting Hole 3.2mm, no annular, M3
-mounting hole 3.2mm no annular m3
-0
-0
-0
-xavier6a_12v
-PLACEHOLDERCAP
-
-
-0
-2
-2
-xavier6a_12v
-QFN_ED-T1-GE3_VIS
-
-SIC438BED-T1-GE3 
-0
-28
-28
-xavier6a_12v
-R_0805
-Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-xavier6a_12v
-SOT-23-3
-
-
-0
-3
-3
-xavier6a_12v
-SPDT_OS102011_CNK
-
-OS102011MS2QN1 
-0
-5
-5
-xavier6a_12v
-YSPIT0730A-2R7M
-
-
-0
-2
-2
-xavier6a_12v
-ZEMS1040
-
-
-0
-2
-2
